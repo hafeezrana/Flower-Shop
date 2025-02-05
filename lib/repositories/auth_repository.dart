@@ -173,8 +173,8 @@ class AuthRepository {
     bool resend = false,
   }) async {
     const String apiUrl =
-        'https://waapi.app/api/v1/instances/7974/client/action/send-message';
-    const String apiKey = 'gLVljroKS3yfidd70RtQS6zCJIpSWrHuSNxeS8vSb2f0820b';
+        'https://waapi.app/api/v1/instances/<YOUR_NUMBER_CODE>/client/action/send-message';
+    const String apiKey = 'YOUR API KEY OBTAINED FROM WAAPI SERVICE';
 
     final String verificationCode = _generateVerificationCode();
 
